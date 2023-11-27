@@ -45,7 +45,7 @@ class Queue():
 		if self.is_empty():
 			return []
 		print("Head: \n")
-		for item in self.stack:
+		for item in self.queue:
 			print(item)
 		print("Tail: \n")
 
@@ -74,6 +74,6 @@ class Dual_Queue():
 	def view(self):
 		if self.is_empty():
 			return []
-		for item in self.stack:
+		for item in self.queue:
 			print('Index: ', self.queue.index(item), 'Value: ', item)
 
